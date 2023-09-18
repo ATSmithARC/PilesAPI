@@ -1,21 +1,15 @@
 {
   "install": {
     "include": [
-      "^package\\.json$",
-      "^\\.env$"
+      "^requirements-stealth\\.txt$"
     ]
   },
   "restart": {
-    "exclude": [
-      "^public/",
-      "^dist/"
-    ],
     "include": [
-      "\\.js$",
-      "\\.coffee$",
-      "\\.json",
-      "\\.py"
+      "^\\.env$",
+      "\\.py$",
+      "^start\\.sh$"
     ]
   },
-  "throttle": 100
+  "throttle": 500
 }
